@@ -1,0 +1,19 @@
+.skelContainer{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skelContainer .contentC{
+    text-align: center;
+    color: #828282;
+}
+.skelContainer h3{
+    margin-top: 20px;
+    color:#333333
+}
+/**Mobile CSS*/
+@media screen and (max-width: 800px) {
+    .skelContainer{width: 100%;margin: 10% 0;}
+}

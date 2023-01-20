@@ -1,0 +1,55 @@
+.mDdC {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 300px;
+  height: auto;
+  background-color: #ffff;
+  padding: 20px 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 20px;
+}
+.mDdC div {
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mDdC div label {
+  cursor: pointer;
+}
+.mDdC div:hover {
+  background-color: #e6e6e6;
+  transition: 0.3s;
+}
+.mDdC img {
+  margin-right: 10px;
+}
+
+.h1Lc label {
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.h1Lc span {
+  margin-top: 5px;
+  float: right;
+  margin-right: 8px;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    #00c2cb 0%,
+    rgba(0, 194, 203, 0.76) 51.04%,
+    #00c2cb 100%
+  );
+  padding: 4px 9px;
+  border-radius: 50px;
+}

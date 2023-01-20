@@ -1,0 +1,32 @@
+.sidebarContainer{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+}
+.sidebarContainer .logoContainer{
+    width: 100%;
+    min-height: 8vh;
+    background: #4285F4;
+}
+.sidebarContainer .contentContainer{
+    overflow-y: auto;
+}
+.sidebarContainer .logoutContainer{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+}
+.sidebarContainer .logoutContainer:hover{
+    background: #e6e6e6;
+    transition: 0.3s;
+}
+.sidebarContainer .logoutContainer .logoutW{
+    padding: 0px 25px;
+}
+.sidebarContainer .logoutContainer img{
+    margin-right: 10px;
+}

@@ -1,0 +1,73 @@
+.dynamicInputGroup {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.dynamicInputGroup .dInput {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 1.302vw 1.563vw;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+  border: none;
+  outline: none;
+}
+
+.dynamicInputGroup .dInput1 {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 1.302vw 1.563vw;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+.dynamicInputGroup .dInput1 {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 1.302vw 1.563vw;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+  border-bottom: 1.5px solid #e0e0e0 !important;
+}
+.dynamicInputGroup .dInput2::placeholder {
+  color: #333333;
+}
+.dynamicInputGroup .dInput1::placeholder {
+  color: #333333;
+}
+.dynamicInputGroup .dInput::placeholder {
+  color: #333333;
+}
+
+.dynamicInputGroup .dInput2 {
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 1.302vw 1.563vw;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+.msg-container {
+  margin-top: 1.042vw;
+}
+
+.msg-container span {
+  font-family: Gilroy-Regular;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+}

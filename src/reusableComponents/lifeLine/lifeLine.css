@@ -1,0 +1,50 @@
+.lifeLineContainer {
+    padding: 3em 0em;
+    background: linear-gradient(to bottom, #00C2CB 65%, #fff 65%);
+    color: #fff;
+    text-align: center;
+}
+
+div#lifeRules {
+    max-width: 50%;
+    text-align: left;
+    margin: auto;
+    padding: 1.5em;
+    background-color: #fff;
+    color: #000;
+    font-weight: 800;
+}
+
+p.lRule {
+    display: flex;
+    padding: 10px 0px;
+}
+.lifeLineContainer {
+    padding: 3em 0em;
+    background: linear-gradient(to bottom, #00C2CB 65%, #fff 65%);
+    color: #fff;
+    text-align: center;
+}
+
+#lifeRules {
+    max-width: 50%;
+    text-align: left;
+    margin: auto;
+    padding: 1.5em;
+    background-color: #fff;
+    color: #000;
+    font-weight: 800;
+}
+
+.lRule {
+    padding: 10px 0px;
+    display: flex;
+}
+.lRule::before {
+    content: '❤️';
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #lifeRules{max-width: 90%;}
+}

@@ -1,0 +1,30 @@
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+}
+.iconCardContainer {
+    text-align: center;
+ }
+ 
+ .iconCardContainer img {
+     padding: 30px;
+     box-shadow: 0 0 20px -5px #B2B2B2;
+     border-radius: 20px;
+ }
+ 
+ .hMargin {
+     margin: 1.5em auto 1em;
+ }
+ 
+ .lightGray {
+     color: #828282;
+     line-height: 26px;
+ }
+
+ @media screen and (max-width: 800px){
+     .grid3{grid-template-columns: 1fr;}
+     .iconCardContainer:not(:last-child), .imageCardsContainer:not(:last-child) {
+        margin-bottom: 10%;
+    }
+ }

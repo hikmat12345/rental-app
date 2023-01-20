@@ -1,0 +1,153 @@
+/* global styles */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+::placeholder {
+  color: #949494;
+}
+h1,h2,h3,h4{
+  font-family: "GilroyBold"
+}
+
+p,div,input,li{
+  font-family: "GilroyRegular"
+}
+
+label{
+  font-family: "GilroyMedium"
+}
+
+
+a {
+  color: #333333;
+}
+
+
+/*Fonts*/
+@font-face {
+  font-family: "GilroyBold";
+  src: url("./fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "GilroyMedium";
+  src: url("./fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "GilroyRegular";
+  src: url("./fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+
+
+/*Global classes*/
+.f-jCenter-aCenter-fRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-jSpaceBetween-aCenter-fRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f-jSpaceBetween-aStart-fRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.f-jCenter-aStart-fColumn{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.f-jSpaceAround-aCenter-fRow{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.f-jFlexEnd-aCenter-fRow{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.f-jFlexStart-aCenter-fRow{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.f-jCenter-aCenter-fColumn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.f-jCenter-aEnd-fColumn{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.f-jStart-aCenter-fColumn{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.height100vhWidth100{
+  width: 100%;
+  height: 100vh;
+}
+.height100Width100{
+  width: 100%;
+  height: 100%;
+}
+.boldFont{
+  font-weight: 900;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* imports */
+@import './global.css';
+@import './reusableComponents/layout/header/header.css';
+@import './components/home/index.css';
+@import './reusableComponents/searchBar.css';
+@import './reusableComponents/dropdowns/dropdown.css';
+@import './components/auth/login.css';
+@import './components/auth/signup.css';
+@import './reusableComponents/buttons/submitButton.css';
+@import './reusableComponents/icons/closeIcon.css';
+@import './reusableComponents/buttons/socialLoginButtons.css';
+@import './reusableComponents/inputs/dynamicInputGroup.css';
+@import './reusableComponents/inputs/inputField.css';
+@import './reusableComponents/popups/popupHeader.css';
+@import './reusableComponents/popups/contactVerification.css';
+@import './reusableComponents/cards/card.css';
+@import './reusableComponents/cards/card1.css';
+@import './reusableComponents/skeletons/skeleton.css';
+@import './reusableComponents/layout/footer/footer.css';
+@import './reusableComponents/layout/footer/footer1.css';
+@import './reusableComponents/layout/footer/footer1Item.css';
+@import './reusableComponents/spinner.css';
+@import './reusableComponents/layout/header/header1.css';
+@import './reusableComponents/layout/sidebar/sidebar.css';
+@import './reusableComponents/layout/sidebar/navigationBlock.css';
+@import './reusableComponents/dropdowns/durationDropdown1.css';
+@import './components/dashboard/index.css';

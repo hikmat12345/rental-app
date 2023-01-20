@@ -1,0 +1,23 @@
+.cVC{
+    background: #ffff;
+    height: 467px;
+    width: 1170px;
+    border-radius: 20px
+}
+.cVC .cVW{
+    height: 380px
+}
+.cVC .cVI{
+    width: 340px;
+}
+.cVC .cVT{
+    font-family:"GilroyMedium";
+}
+.cVC .cVTL{
+    font-family: "GilroyBold";
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cVI.f-jSpaceAround-aCenter-fRow input {
+    margin-right: 6px;
+}

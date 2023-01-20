@@ -1,0 +1,38 @@
+.faqContainer {
+    max-width: 50%;
+    margin: auto;
+}
+.faqContainer h4, .faqContainer p {
+    padding: 20px;
+}
+
+.faqContainer h4 {
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.qBlock {
+    position: relative;
+    border-bottom: 1px solid #E0E0E0;
+}
+.qBlock.opened h4{
+    box-shadow: 0 5px 10px -7px #b2b2b2;
+}
+
+.qBlock.opened p{
+    display: block;
+}
+.faqContainer p {
+    display: none;
+}
+.qBlock.opened h4:after, .qBlock.closed h4:after {
+    position: absolute;
+    right: 20px;
+    font-size: 1.5em;
+}
+.qBlock.opened h4:after {content: '-';}
+.qBlock.closed h4:after {content: '+';}
+
+@media screen and (max-width: 800px) {
+    .faqContainer{max-width: 95%;}
+}

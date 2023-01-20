@@ -1,0 +1,261 @@
+.searchBarContainer {
+  width: 848px;
+  height: 70px;
+  background: #ffff;
+  box-shadow: 0px 0px 20px rgba(101, 101, 101, 0.25);
+  border-radius: 50px;
+}
+.searchBarContainer>div{
+  height: 100%;
+}
+.searchBarContainer .hover:hover{
+  background: #f7f7f7;
+  border-radius: 50px;
+}
+.searchBarContainer .hover:hover .h1Lc{
+  background: #f7f7f7;
+}
+.searchBarContainer .customClass{
+  background: #f7f7f7;
+  border-radius: 50px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.searchBarContainer .customClass .h1Lc{
+  background: #f7f7f7;
+}
+.searchBarContainer .cursor{
+  cursor: pointer;
+}
+.searchBarContainer .formItemW{
+  height: 48px;
+  width: 100%;
+}
+.searchBarContainer .borderCommon{
+  border-right: 1px solid #e6e6e6;
+}
+.searchBarContainer .formItem1Container{
+  height: 100%;
+  width: 30%;
+}
+.searchBarContainer .formItemCC{
+  height: 100%;
+  width: 20%;
+}
+.searchBarContainer .formItem4Container{
+  height: 100%;
+  width: 30%;
+}
+.searchBarContainer .formItem4aContainer{
+  height: 100%;
+  width: 70%;
+}
+.searchBarContainer .formItem4bContainer{
+  height: 100%;
+  width: 30%;
+}
+.searchBarContainer .formItemC{
+  border-right: 1px solid #e6e6e6;
+}
+.searchBarContainer .label label {
+  font-size: 12px;
+  cursor: pointer;
+  color: #333333;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 16px;
+}
+.searchBarContainer .formItem1Container input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+::placeholder {
+  color: #bdbdbd;
+}
+.searchBarContainer .ant-picker {
+  padding: 0px;
+  padding-top: 1px;
+  border: none !important;
+}
+.searchBarContainer .ant-picker-input {
+  display: flex;
+  width: 97px;
+  padding: 0px;
+  border: none !important;
+}
+.searchBarContainer .ant-picker-input > input {
+  cursor: pointer;
+}
+.searchBarContainer .ant-picker-focused {
+  padding: 0px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.searchBarContainer .ant-picker-dropdown-placement-topLeft {
+  top: 442px !important;
+  z-index: 1 !important;
+}
+.searchBarContainer .dayTripsContainer {
+  padding: 15px;
+}
+.searchBarContainer .dayTripsContainer .dayTripsContainerWrapper div {
+  padding: 10px 0px;
+  font-family: GilroyMedium;
+}
+.searchBarContainer .dayTripsContainer .dayTripsContainerWrapper input {
+  margin-right: 10px;
+}
+.searchBarContainer .dropdownContainer .h2Li {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0px;
+  font-family: GilroyBold;
+}
+.searchBarContainer .dropdownContainer .h4Li {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+.searchBarContainer .overnighStaysContainer .days {
+  display: inline-block;
+  padding: 7px 13px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.1s;
+  margin: -5px 2px;
+}
+.searchBarContainer .overnighStaysContainer .days:hover {
+  background: linear-gradient(180deg, #f3c63d 0%, #ffebad 51.56%, #e2b017 100%);
+  color: white;
+  transition: 0.1s;
+}
+.searchBarContainer .overnighStaysContainer .selected {
+  background: linear-gradient(180deg, #f3c63d 0%, #ffebad 51.56%, #e2b017 100%);
+  color: white;
+}
+.searchBarContainer .dayTripsContainerWrapper > div {
+  display: flex;
+}
+.searchBarContainer .customRadio {
+  border: 1px solid #e0e0e0;
+  width: 13px;
+  margin: 3px 4px 0 0;
+  padding: 0px !important;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 14px;
+}
+.searchBarContainer .customRadioSelected {
+  background: linear-gradient(180deg, #f3c63d 0%, #ffebad 51.56%, #e2b017 100%);
+}
+.searchBarContainer .dropdownContainer {
+  width: 280px;
+  height: auto;
+  background-color: #ffff;
+  padding: 20px 0px;
+  position: absolute;
+  top: 54px;
+  border-radius: 3px;
+  z-index: 2;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+.searchBarContainer .dropdownContainer .dropdownItems {
+  padding: 10px 10px;
+  cursor: pointer;
+  transition: 0.1s;
+  font-family: 'GilroyMedium';
+}
+.searchBarContainer .dropdownContainer .dropdownItems:hover {
+  background-color: #fafafa;
+  transition: 0.1s;
+}
+.datepicker{
+  position: absolute;
+  top: 54px;
+  background: #ffff;
+  width: 380px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+.datepicker .react-calendar__viewContainer{
+  padding: 10px 10px;
+  padding-bottom: 20px;
+}
+.datepicker .react-calendar__navigation__arrow{
+  width: 30px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 19px;
+  border-radius: 50px;
+}
+.datepicker .react-calendar__navigation__arrow:hover{
+  background: #e6e6e6;
+}
+.datepicker .react-calendar__month-view__weekdays{
+  padding: 10px 0px;
+}
+.datepicker .react-calendar__month-view__weekdays__weekday{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.datepicker .react-calendar__month-view__weekdays__weekday abbr{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 900;
+}
+.datepicker .react-calendar__tile{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 7px 0px;
+  border-radius: 50px;
+}
+.datepicker .react-calendar__tile:hover{
+  background: #e6e6e6
+}
+.datepicker .react-calendar__navigation{
+  padding:0px 10px;
+  padding-top: 10px;
+}
+.datepicker .react-calendar__navigation__label{
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.datepicker .react-calendar__navigation__label:hover{
+  color: #b3b3b3b9;
+  transition: 0.3s;
+}
+.datepicker .react-calendar__navigation__label span{
+  font-weight: 900;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .endDate .datepicker{
+    right: -127px;
+  }
+  .startDate .datepicker{
+    right: -46px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .searchBarContainer{
+    width: 100%;
+  }
+  .endDate .datepicker{
+    right: -100%;
+  }
+}

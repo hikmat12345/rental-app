@@ -1,0 +1,21 @@
+.header1Container{
+    width: 100%;
+    height: 8vh;
+}
+.header1Container .mainHeaderW{
+    width: 100%;
+}
+.header1Container .mainHeaderW{
+    width: 95%;
+}
+.header1Container .mainHeaderW .h1{
+    color: #4285F4;
+}
+.header1Container .mainHeaderW h2{
+    margin-bottom: 0px;
+}
+.header1Container .logoContainer img{
+    width: 45px;
+    height: 50px;
+}
+/* 4285F4 */

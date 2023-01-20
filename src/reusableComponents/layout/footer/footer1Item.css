@@ -1,0 +1,15 @@
+.footer1ItemsC .itemContainer {
+  cursor: pointer;
+  margin: 20px 0px;
+  color: #828282;
+  transition: 0.3s;
+}
+
+.footer1ItemsC .itemContainer span {
+  color: #828282;
+  font-size: 18px;
+}
+
+.footer1ItemsC .itemContainer:hover {
+  text-decoration: underline;
+}

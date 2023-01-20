@@ -1,0 +1,50 @@
+{
+    "mainPage":{
+        "1p":"Our customer support team is here to take care of you on every step of the way. Whether you are in need of guidance or you want to resolve an issue, we are here to help.",
+        "2p":"All yachts are 100% insured. Our cancellation policy covers many situations including named storms and we will reschedule or refund you if any of them come up.",
+        "3p":"We have over 1000 Captains and Crew Members here to assure you the highest quality of service and an unforgettable yachting experience.",
+        "4p":"Your safety is our priority. Along with are our onboard experts ensuring a safe trip, there is 24/7 water support just a phone call away."
+    },
+    "howItWorksIconCards": [
+        {
+            "title": "Search",
+            "desc": "Browse through our vast and constant growing fleet of boats, yachts, and water activities."
+        },
+        {
+            "title": "Connect",
+            "desc": "Connect with owners to reserve a boat, yacht, or water activity for your date and time."
+        },
+        {
+            "title": "Travel",
+            "desc": "Whether you’re celebrating or just looking to get away, experience the excitement and tranquility of a trip on water."
+        }
+    ],
+    "lifeLineRules": [
+        "You start out with 5 lives and they are like your lifeline.",
+        "Your lives start over at 5 every 3 months or every time you rank up.",
+        "If you lose all 5 lives, you go down a ranking.",
+        "You lose 1 life by getting a Bad Review (2 or 1 star reviews), a Trip Cancellation, or by responding later than 24 hours."
+    ],
+    "faqData": [
+        {
+            "question": "Where do we travel to?",
+            "answer": "Owners and crew members have cruised the waters where you are renting many times. They know spots that are normally reserved for locals only, and these spots may consist of islands, sandbars, cities, and more. Click on 'contact owner' from the yacht page and ask what are the most popular places to go. Make sure to mention if you’re looking for a day trip or overnight stay.",
+            "open": false
+        },
+        {
+            "question": "Who else will be onboard the boat?",
+            "answer": "Owners and crew members have cruised the waters where you are renting many times. They know spots that are normally reserved for locals only, and these spots may consist of islands, sandbars, cities, and more. Click on 'contact owner' from the yacht page and ask what are the most popular places to go. Make sure to mention if you’re looking for a day trip or overnight stay.",
+            "open": false
+        },
+        {
+            "question": "Where do we show up?",
+            "answer": "Owners and crew members have cruised the waters where you are renting many times. They know spots that are normally reserved for locals only, and these spots may consist of islands, sandbars, cities, and more. Click on 'contact owner' from the yacht page and ask what are the most popular places to go. Make sure to mention if you’re looking for a day trip or overnight stay.",
+            "open": false
+        },
+        {
+            "question": "How does payment work?",
+            "answer": "Owners and crew members have cruised the waters where you are renting many times. They know spots that are normally reserved for locals only, and these spots may consist of islands, sandbars, cities, and more. Click on 'contact owner' from the yacht page and ask what are the most popular places to go. Make sure to mention if you’re looking for a day trip or overnight stay.",
+            "open": false
+        }
+    ]
+}

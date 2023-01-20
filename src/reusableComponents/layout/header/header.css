@@ -1,0 +1,80 @@
+.headerContainer {
+  width: 100%;
+  height: 100px;
+  background: rgb(0, 0, 0, 0);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  transition: 0.3s;
+  box-shadow: 0px 4px 20px rgba(179, 179, 179, 0.25);
+}
+.headerContainer p {
+  margin-bottom: 0px;
+}
+.logoContainer.f-jFlexStart-aCenter-fRow span {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "GilroyMedium";
+}
+.headerContainer .headerWrapper {
+  display: flex;
+  width: 80%;
+  height: -webkit-fill-available;
+}
+.headerWrapper .logoContainer {
+  width: 30%;
+  height: 70px;
+  align-self: center;
+}
+.headerWrapper .logoContainer img {
+  width: 120px;
+}
+.headerWrapper .navContainer {
+  width: 50%;
+}
+.headerWrapper .headerNavItem {
+  cursor: pointer;
+  height: 100%;
+  display: grid;
+  align-items: center;
+}
+.headerWrapper .headerNavItem .activeLi {
+  color: #333333;
+  transition: 0.3s;
+}
+.headerWrapper .headerNavItem:hover {
+  border-top: 0px solid #9f9f9f;
+}
+.headerWrapper .headerNavItem:hover .activeLi {
+  font-family: Gilroy-Bold;
+  transition: 0.3s;
+}
+.headerWrapper .headerNavItem .nonActiveLi {
+  color: #333333;
+  transition: 0.3s;
+  font-family: "Gilroy-Medium";
+}
+.headerWrapper .headerNavItem:hover .nonActiveLi:hover {
+  font-family: Gilroy-Bold;
+  transition: 0.3s;
+}
+.headerWrapper .utilsContainer {
+  width: 30%;
+  position: relative;
+}
+
+@media only screen and (max-width: 1650px) {
+  .headerContainer .headerWrapper {
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 1430px) {
+  .headerContainer .headerWrapper {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .headerContainer .headerWrapper {
+    width: 95%;
+  }
+}

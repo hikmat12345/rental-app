@@ -1,0 +1,122 @@
+.carear-container{
+    width: 920px;
+    margin: auto;
+    display: block;
+}
+.carear-col{
+    width: 460px;
+    float: left;
+   
+}
+.col-padding-left{
+   padding-left: 60px;
+}
+.col-padding-right{
+    padding-right: 60px;
+ }
+.carear-yellow-text{
+    font-family: "GilroyRegular";
+    font-size: 50px;
+    line-height: 58px;
+    color: #F3C63D;
+} 
+.carear-green-text{
+    font-family: "GilroyBold";
+    font-size: 63px;
+    line-height: 73px;
+    color: #00C2CB;
+    text-transform: uppercase;
+}
+
+.carear-purple-text{
+    font-family: "GilroyBold";
+    font-size: 54px;
+    letter-spacing: 25px;
+    line-height: 62px;
+    color: #9815C3;
+}
+.carear-paragraph-text{
+    font-family: "GilroyMedium";
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 80px;
+}
+.header-bottom{
+    padding-top: 10rem;
+}
+.input-form-box{
+width: 920px;
+height: 713px;
+margin-top: 24rem;
+margin-bottom: 4rem;
+background: #F5F5F7;
+border-radius: 20px;
+padding:40px 50px 40px 50px;
+
+}
+.carear-form-container{
+    margin: 80px 0px 120px 0px;
+    width: 920px;
+    margin: auto;
+    display: block;
+} 
+.form-title{
+    font-family: "GilroyBold";
+    font-size: 30px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    padding-bottom: 20px;
+}
+.input-form-box textarea{
+    width: 820px;
+    padding: 30px;
+    height: 483px !important;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+    border-radius: 15px;
+}
+.career-form-apply-btn{
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: "GilroyBold";
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #333333;
+    margin-left: auto;
+   
+}
+
+.carear-form-container ::placeholder {
+    padding: 40px;
+    font-family: "GilroyRegular";
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+    color: #BDBDBD;
+}
+.carear-file {
+    font-family: "GilroyMedium";
+    font-size: 20px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    position: relative;
+    padding-left: 41px;
+}
+.clip-file {
+    height: 30px;
+    margin-top: 14px;
+    margin-right: 23px;
+    position: absolute;
+}
+.input-form-box .d-flex {
+    padding-top: 27px;
+}

@@ -1,0 +1,12 @@
+.sLBCC button[type="button"] {
+    width: 371px;
+    border-radius: 10px !important;
+    border: 1px solid #f0f0f0 !important;
+    font-size: 19px !important;
+    color: #292929 !important;
+    box-shadow: initial !important;
+    background-color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 17px 20px;
+}

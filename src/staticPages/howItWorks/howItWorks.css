@@ -1,0 +1,41 @@
+.hiwContainer {
+    margin: 10% auto 0;
+}
+
+.secMargin {
+    margin: 5% auto 0;
+}
+.deskPadding{
+    padding: 0 10%;
+}
+.scoringSVG {
+    padding: 5%;
+    max-width: 90%;
+}
+.scoringSVG img{max-width: 100%;}
+.rdsShadow{border-radius: 20px;box-shadow: 0 0 10px -5px #B2B2B2;}
+.img100{max-width: 100%;}
+.rds20{border-radius: 20px;}
+.lh26{line-height: 26px;}
+.lightGrey {color: #828282;}
+.darkGrey{color: #333333;}
+.centered {text-align: center;}
+.fz-18{font-size:18px;}
+.fz-20{font-size:20px;}
+.fz-24{font-size:24px;}
+.fz-36{font-size:36px;}
+
+/**Mobile CSS*/
+@media screen and (max-width: 800px) {
+    .deskPadding{padding: 0 5%;}
+    .hiwContainer {margin: 30% 0 0;}
+    .secMargin{margin: 10% 0;}
+    .grid1Container{margin-top: 10%;}
+    .hMargin {text-align: center;}
+    .f-jSpaceBetween-aCenter-fRow{flex-direction: column;}
+    .scoringSVG{
+        max-width: 95%;
+        margin: 10% auto 0;
+        padding: 10% 5%;
+    }
+}

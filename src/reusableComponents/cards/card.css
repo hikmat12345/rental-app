@@ -1,0 +1,43 @@
+.cardContainer{
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 2px 2px 10px rgb(0,0,0,0.2);
+    cursor: pointer;
+    height: auto;
+}
+.cardContainer img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:100%;
+    
+}
+.cardContainer .cardContentContainer{
+    padding: 10px 20px;
+    padding-bottom: 5px;
+}
+.cardContainer .cardContentContainer h2{
+    margin-bottom: 0px;
+    font-family: "GilroyBold";
+    color: #333333;
+}
+.cardContainer .cardContentContainer div{
+    color: #bfbdbd;
+    font-family: "GiloryMedium";
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1170px) {
+    .cardContainer{
+      width: 300px;
+    }
+}
+@media only screen and (max-width: 995px) {
+    .cardContainer{
+        width: 240px;
+    }
+}
+@media only screen and (max-width: 840px) {
+    .cardContainer{
+        width: 230px;
+    }
+}

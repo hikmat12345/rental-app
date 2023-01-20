@@ -1,0 +1,28 @@
+.sideBarNBlockContainer{
+    width: 100%;
+    padding: 25px 0px;
+}
+.sideBarNBlockContainer .header{
+    padding: 0px 25px;
+}
+.sideBarNBlockContainer .header h4{
+    cursor: default;
+}
+.sideBarNBlockContainer .itemsW{
+    margin: 0px 25px;
+}
+.sideBarNBlockContainer .itemsW1{
+    transition: 0.3s;
+    height: 40px;
+    cursor: pointer;
+}
+.sideBarNBlockContainer .itemsW1:hover{
+    transition: 0.3s;
+    background: #e6e6e6;
+}
+.sideBarNBlockContainer .items{
+    padding: 10px 0px;
+}
+.sideBarNBlockContainer .itemsW img{
+    margin-right: 10px;
+}

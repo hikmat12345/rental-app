@@ -1,0 +1,79 @@
+.dashboardContainer{
+    height: auto;
+}
+.dashboardW{
+    display: flex;
+    height: 100vh;
+}
+.dashboardContainer .headerAndContent{
+    height: 92vh;
+    width: 87vw;
+}
+.dashboardContainer .dSContainer{
+    width: 13vw;
+    height: 100vh;
+}
+@media only screen and (max-width: 1760px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 86vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 14vw;
+    }
+}
+@media only screen and (max-width: 1630px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 85vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 17vw;
+    }
+}
+@media only screen and (max-width: 1370px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 83vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 21vw;
+    }
+}
+@media only screen and (max-width: 1160px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 81vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 23vw;
+    }
+}
+@media only screen and (max-width: 1090px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 79vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 25vw;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 77vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 28vw;
+    }
+}
+@media only screen and (max-width: 930px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 75vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 31vw;
+    }
+}
+@media only screen and (max-width: 878px) {
+    /* .dashboardContainer .headerAndContent{
+        width: 73vw;
+    } */
+    .dashboardContainer .dSContainer{
+        width: 37vw;
+    }
+}

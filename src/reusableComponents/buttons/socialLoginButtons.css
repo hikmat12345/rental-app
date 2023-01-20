@@ -1,0 +1,44 @@
+.sLB {
+  width: 100%;
+  padding: 30px 0px;
+  padding-bottom: 10px;
+}
+.sLBCC {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.sLBCC .sLBC {
+  width: 48%;
+  border: 1.5px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1.042vw 1.302vw;
+  cursor: pointer;
+  text-align: center;
+}
+.sLBCC .sLBC button {
+  font-size: 15px;
+  background-color: #ffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: Gilroy-Medium;
+  font-size: 1.15vw;
+  line-height: 28px;
+}
+.sLBCC .sLBC img {
+  height: 1.563vw;
+  width: 1.563vw;
+  margin-right: 10px;
+  float: left;
+}
+
+.sLBCC .sLBC .email-icon {
+  height: 1.198vw;
+  width: 1.563vw;
+  margin-right: 10px;
+  float: left;
+  margin-top: 0.208vw;
+}

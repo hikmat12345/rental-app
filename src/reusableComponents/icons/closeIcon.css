@@ -1,0 +1,8 @@
+.closeIcon {
+  width: 100%;
+}
+.closeIcon img {
+  width: 1.15vw;
+  height: 1.15vw;
+  cursor: pointer;
+}

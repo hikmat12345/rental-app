@@ -1,0 +1,25 @@
+.footer1Container {
+  width: 100%;
+  background: #f5f5f7;
+  padding: 70px 0px;
+}
+.footer1Container .footer1W {
+  width: 80%;
+}
+.footer1Container .cMargin {
+  margin: 20px 0px;
+}
+.footer1Container .iC img {
+  height: 2.083vw;
+  width: 2.083vw;
+  cursor: pointer;
+}
+
+.footer1Container .iC1 img {
+  width: 50%;
+  height: 18px;
+}
+.footer1Container .figureC {
+  color: #828282;
+  font-weight: 600;
+}

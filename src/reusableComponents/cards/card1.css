@@ -1,0 +1,42 @@
+.card1Container{
+    position: relative;
+    cursor: pointer;
+}
+.card1Container .imageContainer{
+    width: 100%;
+    border-radius: 15px;
+}
+.card1Container .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+.card1Container .c1Content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 15px 30px;
+    color: #ffff;
+    background: rgb(0,0,0,0.6);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 853px) {
+    .card1Container .c1Content{
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 752px) {
+    .card1Container .c1Content{
+        font-weight: 600;
+        font-size: 12px;
+    }
+}
