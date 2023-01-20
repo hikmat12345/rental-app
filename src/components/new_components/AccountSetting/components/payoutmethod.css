@@ -1,0 +1,78 @@
+.lib-payment-method-container {
+  padding: 2.604vw 3.125vw;
+  background-color: #ffffff;
+  border-radius: 0px 0px 0.781vw 0.781vw;
+  height: fit-content;
+}
+
+.lib-payment-method-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 0.781vw;
+}
+
+.lib-payment-method-container .header .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+  margin-bottom: 0.781vw;
+}
+
+.lib-payment-method-container .card-list {
+  margin-top: 0.521vw;
+  display: grid;
+}
+
+.lib-payment-method-container .card-list .card-info {
+  margin-top: 1.042vw;
+  border: 1px solid #e0e0e0;
+  padding: 0.781vw 1.563vw;
+  border-radius: 0.521vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.lib-payment-method-container .card-list .card-info .card-img {
+  padding: 0.625vw 0.521vw;
+  background-color: #ffffff;
+}
+
+.lib-payment-method-container .card-list .card-info .left-container {
+  margin-left: 1.042vw;
+}
+
+.lib-payment-method-container .card-list .card-info .left-container span {
+  font-family: Gilroy-Bold;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #333333;
+}
+
+.lib-payment-method-container .card-list .card-info .left-container p {
+  margin-bottom: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 0.729vw;
+  line-height: 16px;
+  color: #828282;
+}
+
+.lib-payment-method-container .card-list .card-info .right-container {
+  float: right;
+}
+
+.payout-method-btn {
+  float: right;
+  margin-top: 2.083vw;
+  padding: 0.938vw 2.083vw;
+  border: none;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: #00c2cb;
+  border-radius: 10px;
+}

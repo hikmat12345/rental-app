@@ -1,0 +1,204 @@
+.share-container {
+  width: 100%;
+  display: flex;
+  background: #f5f5f7;
+  border-radius: 15px;
+  padding: 1.563vw;
+  margin-top: 2.083vw;
+}
+
+.share-container .share-left {
+  width: 60%;
+}
+
+.share-container .share-left .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+}
+
+.share-container .share-left .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  margin-top: 0.625vw;
+  color: #828282;
+}
+
+.share-container .share-left .field-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 0.521vw 0.521vw 1.042vw;
+  margin-top: 15px;
+}
+
+.share-container .share-left .field-container .field-input {
+  background: #ffffff;
+  margin-right: 0.521vw;
+  border: none;
+  width: 70%;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+}
+
+.share-container .share-left .field-container .field-btn {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 1.563vw;
+  font-family: Gilroy-Bold;
+  font-size: 0.729vw;
+  float: right;
+  color: #333333;
+}
+
+.share-container .share-left .link-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 0.521vw 0.521vw 1.042vw;
+  margin-top: 1.042vw;
+}
+
+.share-container .share-left .link-container .link-wrap .link-input {
+  background: #ffffff;
+  margin-right: 0.521vw;
+  border: none;
+  width: fit-content;
+  font-family: Gilroy-Medium;
+  font-size: 0.625vw;
+  line-height: 14px;
+  color: #828282;
+}
+
+.share-container .share-left .link-container .link-wrap span {
+  margin-left: 0.521vw;
+  font-family: Gilroy-Bold;
+  font-size: 0.625vw;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+.share-container .share-left .link-container .link-btn {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 0.781vw;
+  font-family: Gilroy-Bold;
+  font-size: 0.729vw;
+  float: right;
+  color: #333333;
+}
+
+.share-container .share-right {
+  width: 40%;
+  padding-left: 1.042vw;
+}
+
+.share-container .share-right .header {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-align: left;
+  color: #27ae60;
+}
+
+.share-container .share-right .track-wrapper {
+  border: 1px solid #333333;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 15px;
+  padding: 1.563vw 1.302vw;
+  height: max-content;
+  margin-top: 1.042vw;
+}
+
+.share-container .share-right .track-wrapper .heading {
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 0.833vw;
+  line-height: 19px;
+  text-transform: capitalize;
+  padding-bottom: 0.781vw;
+  border-bottom: 1px dashed #bdbdbd;
+}
+
+.share-container .share-right .track-wrapper .record {
+  margin-top: 1.563vw;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-transform: capitalize;
+  padding-bottom: 1.042vw;
+  color: #828282;
+}
+span.message-error {
+  font-size: 11px;
+  color: red;
+}
+@media only screen and (max-width: 1600px) {
+  .share-container .share-left .head {
+    font-size: 1.125vw;
+  }
+
+  .share-container .share-left .body {
+    font-size: 1vw;
+  }
+
+  .share-container .share-left .field-container {
+    padding: 0.5vw 0.5vw 0.5vw 0.875vw;
+  }
+
+  .share-container .share-left .field-container .field-input {
+    font-size: 1vw;
+  }
+
+  .share-container .share-left .field-container .field-btn {
+    font-size: 0.875vw;
+  }
+
+  .share-container .share-left .link-container {
+    padding: 0.5vw 0.5vw 0.5vw 0.875vw;
+  }
+
+  .share-container .share-left .link-container .link-wrap .link-input {
+    margin-right: 0.2vw;
+    font-size: 0.75vw;
+  }
+
+  .share-container .share-left .link-container .link-wrap span {
+    margin-left: 0.5vw;
+    font-size: 0.813vw;
+  }
+
+  .share-container .share-left .link-container .link-btn {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 0.5vw 0.625vw;
+    font-family: Gilroy-Bold;
+    font-size: 0.813vw;
+    float: right;
+  }
+
+  .share-container .share-right {
+    width: 40%;
+    padding-left: 1.042vw;
+  }
+
+  .share-container .share-right .header {
+    font-size: 1.125vw;
+  }
+
+  .share-container .share-right .track-wrapper .heading {
+    font-size: 1vw;
+    color: #333333;
+  }
+
+  .share-container .share-right .track-wrapper .record {
+    font-size: 0.875vw;
+  }
+}

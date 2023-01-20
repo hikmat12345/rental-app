@@ -1,0 +1,320 @@
+.point-reward-container {
+  border-radius: 10px;
+  display: grid;
+  padding-bottom: 0px;
+}
+
+.point-reward-container .header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: grid;
+}
+
+.point-reward-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.563vw;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.point-reward-container .header .head .start {
+  color: #333333;
+}
+.point-reward-container .header .head .bronze {
+  color: #c49f8d;
+}
+.point-reward-container .header .head .silver {
+  color: #c1c1c2;
+}
+.point-reward-container .header .head .gold {
+  color: #f5cb4b;
+}
+.point-reward-container .header .head .platinum {
+  color: #b622e5;
+}
+
+.point-reward-container .header .reward-image {
+  margin-top: 1.563vw;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1.563vw;
+}
+
+.point-reward-container .header .reward-image img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.point-reward-container .reward-list {
+  margin-top: 1.563vw;
+  border-radius: 15px;
+}
+
+.point-reward-container .reward-list img {
+  width: 40px;
+  height: 40px;
+}
+.point-reward-container .reward-list .option {
+  padding: 1.042vw 1.563vw;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.point-reward-container .reward-list .option-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.point-reward-container .reward-list .option-bottom {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.point-reward-container .reward-list .option .reward-check {
+  font-family: Gilroy-Medium;
+  font-size: 1.042vw;
+  line-height: 40px;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #219653;
+  margin-left: 20px;
+}
+
+.point-reward-container .reward-list .option .reward-uncheck {
+  font-family: Gilroy-Medium;
+  font-size: 1.042vw;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-left: 20px;
+  color: #333333;
+}
+
+.point-reward-container .reward-list .option .reward-check span {
+  font-family: Gilroy-Bold;
+}
+
+.point-reward-container .reward-list .option .reward-uncheck span {
+  font-family: Gilroy-Bold;
+}
+
+.point-reward-container .reward-list .option .reward-right {
+  height: 100%;
+  text-align: center;
+  float: right;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #219653;
+}
+
+.point-reward-container .reward-list .option .reward-right .reward-points {
+  font-family: Gilroy-Regular;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #828282;
+}
+
+.point-reward-container .rank-up-btn {
+  margin-top: 30px;
+  width: 10.417vw;
+  height: 3.125vw;
+  border: none;
+  background: #27ae60;
+  border-radius: 10px;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.modal-reward-container {
+  padding-top: 30px;
+  background-color: #ffffff;
+  border-radius: 13px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 20px;
+}
+
+.modal-reward-container .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Gilroy-Bold;
+  font-size: 1.875vw;
+}
+
+.modal-reward-container .body {
+  margin-top: 1.563vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.25vw;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4.167vw;
+  text-transform: capitalize;
+}
+
+.modal-reward-container .btn-container {
+  margin-top: 1.563vw;
+  width: 100%;
+  height: max-content;
+  text-align: center;
+}
+
+.modal-reward-container .btn-container img {
+  margin-top: -40px;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-reward-container .btn-container .btn {
+  padding: 0.938vw 2.865vw;
+  border-radius: 10px;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-align: center;
+  color: #333333;
+}
+
+.modal-reward-container .btn-container .btn-bronze {
+  background: linear-gradient(180deg, #d09e84 0%, #ffe6d9 48.96%, #986a55 100%);
+}
+.modal-reward-container .btn-container .btn-silver {
+  background: linear-gradient(180deg, #d5d5d7 0%, #f5f5f5 48.96%, #a2a2a4 100%);
+}
+.modal-reward-container .btn-container .btn-gold {
+  background: linear-gradient(
+    180deg,
+    #f3c63d 0%,
+    #ffebad 54.17%,
+    rgba(226, 176, 23, 0.94) 100%
+  );
+}
+.modal-reward-container .btn-container .btn-platinum {
+  background: linear-gradient(180deg, #9815c3 0%, #cd2cff 48.96%, #571670 100%);
+}
+
+@media only screen and (max-width: 1600px) {
+  .point-reward-container .reward-list img {
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+}
+/* 
+@media only screen and (max-width: 1600px) {
+  .point-reward-container .header .reward-image {
+    padding: 25px;
+    margin-top: 20px;
+  }
+  .point-reward-container .header .head {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .point-reward-container .reward-list .option .reward-check {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .point-reward-container .reward-list .option .reward-uncheck {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .point-reward-container .reward-list .option .reward-right {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .point-reward-container .reward-list .option .reward-right .reward-points {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .point-reward-container .rank-up-btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .modal-reward-container .head {
+    font-family: Gilroy-Bold;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .modal-reward-container .body {
+    font-family: Gilroy-Bold;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 20px 40px;
+  }
+  .modal-reward-container .btn-container .btn {
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .point-reward-container .header .reward-image {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .point-reward-container .header .head {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .point-reward-container .reward-list .option .reward-check {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .point-reward-container .reward-list .option .reward-uncheck {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .point-reward-container .reward-list .option .reward-right {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .point-reward-container .reward-list .option .reward-right .reward-points {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .modal-reward-container .head {
+    font-family: Gilroy-Bold;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .modal-reward-container .body {
+    font-family: Gilroy-Bold;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 25px 60px;
+  }
+  .modal-reward-container .btn-container .btn {
+    margin-top: 20px;
+    padding: 13px 30px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .point-reward-container .header .reward-image {
+    padding: 10px;
+  }
+} */

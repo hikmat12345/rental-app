@@ -1,0 +1,67 @@
+.common-question-container {
+  margin-top: 3.125vw;
+}
+
+.common-question-container h5 {
+  font-family: Gilroy-Bold;
+  font-size: 1.563vw;
+  margin-bottom: 0px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container {
+  margin-top: 1.563vw;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+}
+
+.common-question-container .accordion-container .accordion-top {
+  border: 1px solid #e0e0e0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .accordion-btw {
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .accordion-bottom {
+  border: 1px solid #e0e0e0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .head {
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #333333;
+}

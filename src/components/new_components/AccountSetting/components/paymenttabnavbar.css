@@ -1,0 +1,21 @@
+.app-bar {
+  border-radius: 0.781vw 0.781vw 0px 0px;
+  padding: 0px 1.042vw 0px 1.823vw;
+  margin-bottom: 12px;
+}
+
+.app-bar .payment-tabs {
+  margin-right: 2.083vw;
+  padding: 1.042vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #828282;
+  cursor: pointer;
+}
+
+.app-bar .active-tab {
+  padding: 1.042vw 1.042vw 0.885vw 1.042vw;
+  border-bottom: 3px solid #333333;
+  color: #333333;
+}

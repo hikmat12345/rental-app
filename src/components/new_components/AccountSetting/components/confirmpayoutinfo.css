@@ -1,0 +1,65 @@
+.top-label-center {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.top-label-center label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.info-option-info-card {
+  background: white;
+  padding: 1.042vw;
+  margin-bottom: 0.521vw;
+  border-radius: 10px;
+  display: grid;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+}
+
+.info-option-info-card input {
+  background: white;
+  border: unset;
+  font-family: Gilroy-Regular;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+}
+
+.info-option-info-card label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  color: #333333;
+}
+
+.input-container .btn-container-edit {
+  margin-top: 20px;
+  float: right;
+}
+
+.input-container .btn-container-edit .left-btn {
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0px;
+  width: 10.417vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background-color: #e0e0e0;
+}
+.input-container .btn-container-edit .right-btn {
+  border: none;
+  margin-left: 1.563vw;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0px;
+  width: 10.417vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background: #00c2cb;
+  color: #ffffff;
+}

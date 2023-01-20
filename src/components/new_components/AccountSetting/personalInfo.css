@@ -1,0 +1,156 @@
+.top-label-person-info {
+  height: auto;
+  padding-left: 1.563vw;
+  padding-top: 0.26vw;
+  margin-bottom: 0.781vw;
+}
+.top-label-person-info label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.top-label-center {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.top-label-center label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #333333;
+}
+.top-label-person-info .edit-info {
+  float: right;
+  margin-right: 10px;
+  color: #4285f4;
+}
+.top-label-person-info .edit-info span {
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  text-align: right;
+  text-decoration-line: underline;
+}
+
+.top-label-person-info .edit-info img {
+  width: 15px;
+  height: 15px;
+  margin-right: 9px;
+}
+
+.modal-edit-info-container {
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.modal-edit-info-container .container {
+  padding: 1.042vw 2.604vw;
+}
+
+.modal-edit-info-container .header {
+  padding: 1.302vw 0px 1.042vw;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.modal-edit-info-container .header .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  text-transform: uppercase;
+}
+
+.modal-edit-info-container .container .field {
+  margin-bottom: 1.042vw;
+}
+
+.modal-edit-info-container .container .field .label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  margin-bottom: 0.781vw;
+  color: #333333;
+}
+
+.modal-edit-info-container .container .field input {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 1.042vw 1.563vw;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  color: #828282;
+}
+
+.modal-edit-info-container .container .field select {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 1.042vw 1.563vw;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  color: #828282;
+}
+
+.modal-edit-info-container .container .field .gov {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 1.042vw 1.563vw;
+  font-family: Gilroy-Medium;
+  color: #828282;
+  font-size: 0.833vw;
+}
+
+.modal-edit-info-container .container .field .gov span {
+  float: right;
+  margin-right: 10px;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+.modal-edit-info-container .btn-container-edit {
+  padding: 0px 2.604vw 2.604vw 0px;
+  float: right;
+}
+.modal-edit-info-container .btn-container-edit .left-btn {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1.042vw 0px;
+  width: 10.417vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+}
+.modal-edit-info-container .btn-container-edit .right-btn {
+  margin-left: 1.563vw;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1.042vw 0px;
+  width: 10.417vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+}
+
+.modal-edit-info-container .btn-container-edit .grey {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+.modal-edit-info-container .btn-container-edit .blue {
+  background: #00c2cb;
+  border-radius: 15px;
+  color: #ffffff;
+}

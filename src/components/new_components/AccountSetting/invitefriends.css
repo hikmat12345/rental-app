@@ -1,0 +1,596 @@
+.invite-friend-container {
+  background: white;
+  border-radius: 10px;
+  display: grid;
+}
+
+.invite-friend-container .header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: grid;
+}
+
+.invite-friend-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+
+.invite-friend-container .header .body {
+  font-family: Gilroy-Regular;
+  font-size: 24px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.invite-friend-container .container-grid {
+  padding: 20px 0px 40px;
+}
+.invite-friend-container .container-grid .each-grid {
+  margin-top: 20px;
+}
+
+.invite-friend-container .container-grid .head {
+  margin-top: 20px;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #333333;
+}
+
+.invite-friend-container .container-grid .body {
+  margin-top: 20px;
+  padding-right: 30px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.share-container {
+  width: 100%;
+  display: flex;
+  background: #f5f5f7;
+  border-radius: 15px;
+  padding: 1.563vw;
+  margin-top: 2.083vw;
+}
+
+.share-container .share-left {
+  width: 60%;
+}
+
+.share-container .share-left .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+}
+
+.share-container .share-left .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  margin-top: 0.625vw;
+  color: #828282;
+}
+
+.share-container .share-left .field-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 0.521vw 0.521vw 1.042vw;
+  margin-top: 15px;
+}
+
+.share-container .share-left .field-container .field-input {
+  background: #ffffff;
+  margin-right: 0.521vw;
+  border: none;
+  width: fit-content;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+}
+
+.share-container .share-left .field-container .field-btn {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 1.563vw;
+  font-family: Gilroy-Bold;
+  font-size: 0.729vw;
+  float: right;
+}
+
+.share-container .share-left .link-container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 0.521vw 0.521vw 1.042vw;
+  margin-top: 1.042vw;
+}
+
+.share-container .share-left .link-container .link-wrap .link-input {
+  background: #ffffff;
+  margin-right: 0.521vw;
+  border: none;
+  width: fit-content;
+  font-family: Gilroy-Medium;
+  font-size: 0.625vw;
+  line-height: 14px;
+  color: #828282;
+}
+
+.share-container .share-left .link-container .link-wrap span {
+  margin-left: 0.521vw;
+  font-family: Gilroy-Bold;
+  font-size: 0.625vw;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #4285f4;
+  cursor: pointer;
+}
+
+.share-container .share-left .link-container .link-btn {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.521vw 0.781vw;
+  font-family: Gilroy-Bold;
+  font-size: 0.729vw;
+  float: right;
+}
+
+.share-container .share-right {
+  width: 40%;
+  padding-left: 1.042vw;
+}
+
+.share-container .share-right .header {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-align: left;
+  color: #27ae60;
+}
+
+.share-container .share-right .track-wrapper {
+  border: 1px solid #333333;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 15px;
+  padding: 1.563vw 1.302vw;
+  height: max-content;
+  margin-top: 1.042vw;
+}
+
+.share-container .share-right .track-wrapper .heading {
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 0.833vw;
+  line-height: 19px;
+  text-transform: capitalize;
+  padding-bottom: 0.781vw;
+  border-bottom: 1px dashed #bdbdbd;
+}
+
+.share-container .share-right .track-wrapper .record {
+  margin-top: 1.563vw;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-transform: capitalize;
+  padding-bottom: 1.042vw;
+  color: #828282;
+}
+
+.common-question-container {
+  margin-top: 60px;
+}
+
+.common-question-container h5 {
+  font-family: Gilroy-Bold;
+  font-size: 30px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container {
+  margin-top: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+}
+
+.common-question-container .accordion-container .accordion-top {
+  border: 1px solid #e0e0e0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .accordion-btw {
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .accordion-bottom {
+  border: 1px solid #e0e0e0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom: none;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .head {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.common-question-container .accordion-container .body {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.MuiAccordionSummary-expandIcon {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  color: #333333;
+}
+.field-btn svg:not(:root) {
+    width: 71px !important;
+}
+@media only screen and (max-width: 1920px) {
+  .invite-friend-container .container-grid .body {
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .invite-friend-container .header .head {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .invite-friend-container .header .body {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .common-question-container {
+    margin-top: 40px;
+  }
+
+  .common-question-container h5 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .common-question-container .accordion-container {
+    margin-top: 25px;
+  }
+
+  .common-question-container .accordion-container .accordion-top {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .common-question-container .accordion-container .accordion-btw {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .common-question-container .accordion-container .accordion-bottom {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .common-question-container .accordion-container .head {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .common-question-container .accordion-container .body {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .invite-friend-container .header .head {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .invite-friend-container .header .body {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .common-question-container {
+    margin-top: 50px;
+  }
+
+  .common-question-container h5 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .common-question-container .accordion-container {
+    margin-top: 30px;
+  }
+
+  .share-container {
+  }
+
+  .share-container .share-left .head {
+    font-size: 1.125vw;
+  }
+
+  .share-container .share-left .body {
+    font-size: 1vw;
+  }
+
+  .share-container .share-left .field-container {
+    padding: 0.5vw 0.5vw 0.5vw 0.875vw;
+  }
+
+  .share-container .share-left .field-container .field-input {
+    font-size: 1vw;
+  }
+
+  .share-container .share-left .field-container .field-btn {
+    font-size: 0.875vw;
+  }
+
+  .share-container .share-left .link-container {
+    padding: 0.5vw 0.5vw 0.5vw 0.875vw;
+  }
+
+  .share-container .share-left .link-container .link-wrap .link-input {
+    margin-right: 0.2vw;
+    font-size: 0.75vw;
+  }
+
+  .share-container .share-left .link-container .link-wrap span {
+    margin-left: 0.5vw;
+    font-size: 0.813vw;
+  }
+
+  .share-container .share-left .link-container .link-btn {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 0.5vw 0.625vw;
+    font-family: Gilroy-Bold;
+    font-size: 0.813vw;
+    float: right;
+  }
+
+  .share-container .share-right {
+    width: 40%;
+    padding-left: 1.042vw;
+  }
+
+  .share-container .share-right .header {
+    font-size: 1.125vw;
+  }
+
+  .share-container .share-right .track-wrapper .heading {
+    font-size: 1vw;
+    color: #333333;
+  }
+
+  .share-container .share-right .track-wrapper .record {
+    font-size: 0.875vw;
+  }
+.MuiLinearProgress-barColorSecondary {
+    background-color: #292929 !important;
+}
+
+  /* .share-container {
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .share-container .share-left {
+    width: 65%;
+  }
+
+  .share-container .share-left .head {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .share-container .share-left .body {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 12px;
+  }
+
+  .share-container .share-left .field-container {
+    padding: 8px 8px 8px 15px;
+    margin-top: 15px;
+  }
+
+  .share-container .share-left .field-container .field-input {
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .share-container .share-left .field-container .field-btn {
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    float: right;
+  }
+
+  .share-container .share-left .link-container {
+    padding: 8px 8px 8px 15px;
+    margin-top: 15px;
+  }
+
+  .share-container .share-left .link-container .link-wrap .link-input {
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .share-container .share-left .link-container .link-wrap span {
+    margin-left: 8px;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .share-container .share-left .link-container .link-btn {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 12px;
+    float: right;
+  }
+
+  .share-container .share-right {
+    width: 35%;
+    padding-left: 20px;
+  }
+
+  .share-container .share-right .header {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .share-container .share-right .track-wrapper {
+    padding: 20px 15px;
+  }
+
+  .share-container .share-right .track-wrapper .heading {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .share-container .share-right .track-wrapper .record {
+    margin-top: 30px;
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 14px;
+  } */
+}
+
+@media only screen and (max-width: 1260px) {
+  /* .share-container {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  .share-container .share-left {
+    width: 65%;
+  }
+
+  .share-container .share-left .head {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .share-container .share-left .body {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 10px;
+  }
+
+  .share-container .share-left .field-container {
+    padding: 6px 6px 6px 12px;
+    margin-top: 15px;
+  }
+
+  .share-container .share-left .field-container .field-input {
+    margin-right: 5px;
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .share-container .share-left .field-container .field-btn {
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-size: 12px;
+    float: right;
+  }
+
+  .share-container .share-left .link-container {
+    padding: 6px 6px 6px 12px;
+    margin-top: 15px;
+  }
+
+  .share-container .share-left .link-container .link-wrap .link-input {
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .share-container .share-left .link-container .link-wrap span {
+    margin-left: 8px;
+    font-family: Gilroy-Bold;
+    font-size: 12px;
+    line-height: 13px;
+  }
+
+  .share-container .share-left .link-container .link-btn {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 6px 8px;
+    font-size: 12px;
+    float: right;
+  }
+
+  .share-container .share-right {
+    width: 35%;
+    padding-left: 20px;
+  }
+
+  .share-container .share-right .header {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .share-container .share-right .track-wrapper {
+    padding: 15px 10px;
+  }
+
+  .share-container .share-right .track-wrapper .heading {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .share-container .share-right .track-wrapper .record {
+    margin-top: 20px;
+    font-family: Gilroy-Regular;
+    font-size: 12px;
+    line-height: 13px;
+  } */
+}

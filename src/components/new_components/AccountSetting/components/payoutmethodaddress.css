@@ -1,0 +1,101 @@
+.address-method-container {
+  padding: 2.604vw 3.125vw;
+  background-color: #ffffff;
+  border-radius: 0px 0px 0.781vw 0.781vw;
+  height: fit-content;
+}
+
+.address-method-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+}
+
+.address-method-container .header .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+}
+
+.address-method-container .address-list {
+  margin-top: 1.563vw;
+}
+
+.address-method-container .address-list .address {
+  margin-top: 1.042vw;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0.833vw 2.083vw;
+}
+
+.address-method-container .address-list .address span {
+  font-family: Gilroy-Bold;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+}
+
+.address-method-container .address-list .address p {
+  font-family: Gilroy-Regular;
+  font-size: 0.729vw;
+  line-height: 16px;
+  color: #828282;
+  margin-bottom: 0px;
+}
+
+.address-method-container .address-list .address-active {
+  margin-top: 1.042vw;
+  background: #ffffff;
+  border: 3px solid #333333;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0.833vw 2.083vw;
+}
+
+.address-method-container .address-list .address-active span {
+  font-family: Gilroy-Bold;
+  font-size: 0.729vw;
+  line-height: 19px;
+  color: #333333;
+}
+
+.address-method-container .address-list .address-active p {
+  font-family: Gilroy-Regular;
+  font-size: 0.875vw;
+  line-height: 16px;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+.address-method-container .btn-container-edit {
+  margin-top: 1.042vw;
+  float: right;
+}
+
+.address-method-container .btn-container-edit .left-btn {
+  width: 10.417vw;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background-color: #e0e0e0;
+}
+.address-method-container .btn-container-edit .right-btn {
+  width: 10.417vw;
+  border: none;
+  margin-left: 30px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background: #00c2cb;
+  color: #ffffff;
+}

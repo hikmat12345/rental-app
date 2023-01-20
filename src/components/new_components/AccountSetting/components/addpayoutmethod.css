@@ -1,0 +1,89 @@
+.add-payout-method-container {
+  padding: 2.604vw 3.125vw;
+  background-color: #ffffff;
+  border-radius: 0px 0px 0.781vw 0.781vw;
+  height: fit-content;
+}
+
+.add-payout-method-container .input-container label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 1.042vw;
+}
+
+.add-payout-method-container .input-container input {
+  padding: 1.042vw 1.563vw;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 1.042vw;
+}
+.add-payout-method-container .input-container select {
+  padding: 1.042vw 1.563vw;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 1.042vw;
+}
+
+.add-payout-method-container .input-container .check-label {
+  font-family: Gilroy-Bold;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+}
+
+.add-payout-method-container .input-container .payout-li {
+  margin-left: 2.083vw;
+  list-style-type: disc;
+  font-family: Gilroy-Regular;
+  font-size: 0.875vw;
+  line-height: 16px;
+
+  color: #828282;
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+.add-payout-method-container .btn-container-edit {
+  margin-top: 20px;
+  float: right;
+}
+
+.add-payout-method-container .btn-container-edit .left-btn {
+  width: 10.417vw;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background-color: #e0e0e0;
+}
+.add-payout-method-container .btn-container-edit .right-btn {
+  width: 10.417vw;
+  border: none;
+  margin-left: 30px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background: #00c2cb;
+  color: #ffffff;
+}

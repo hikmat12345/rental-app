@@ -1,0 +1,148 @@
+.lib-payment-method-container {
+  padding: 2.604vw 3.125vw;
+  background-color: #ffffff;
+  border-radius: 0px 0px 0.781vw 0.781vw;
+  height: fit-content;
+}
+
+.lib-payment-method-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 0.781vw;
+}
+
+.lib-payment-method-container .header .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+  margin-bottom: 0.781vw;
+}
+
+.lib-payment-method-container .card-list {
+  margin-top: 0.521vw;
+  display: grid;
+}
+
+.lib-payment-method-container .card-list .card-info {
+  margin-top: 1.042vw;
+  border: 1px solid #e0e0e0;
+  padding: 0.781vw 1.563vw;
+  border-radius: 0.521vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.lib-payment-method-container .card-list .card-info .card-img {
+  padding: 0.625vw 0.521vw;
+  background-color: #ffffff;
+}
+
+.lib-payment-method-container .card-list .card-info .left-container {
+  margin-left: 1.042vw;
+}
+
+.lib-payment-method-container .card-list .card-info .left-container span {
+  font-family: Gilroy-Bold;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #333333;
+}
+
+.lib-payment-method-container .card-list .card-info .left-container p {
+  margin-bottom: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 0.729vw;
+  line-height: 16px;
+  color: #828282;
+}
+
+.lib-payment-method-container .card-list .card-info .right-container {
+  float: right;
+}
+
+.lib-payment-method-container
+  .card-list
+  .card-info
+  .right-container
+  .default-btn {
+  border: 1px solid #f5f5f7;
+  padding: 0.26vw 0.781vw;
+  border-radius: 20px;
+  background-color: #f5f5f7;
+  font-family: Gilroy-Bold;
+  font-size: 0.625vw;
+  text-transform: uppercase;
+  color: #007cff;
+}
+
+.lib-payment-method-container .card-list .card-info .right-container .edit {
+  margin-left: 0.781vw;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50px;
+  background-color: #f5f5f7;
+}
+
+.lib-payment-method-container .input-container-card .field input {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 20px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  color: #828282;
+}
+
+.lib-payment-method-container .input-container-card .field select {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 20px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  color: #828282;
+}
+
+.lib-payment-method-container .input-container-card {
+  margin-top: 20px;
+}
+
+.lib-payment-method-container .input-container-card .btn-container-edit {
+  margin-top: 1.042vw;
+  float: right;
+}
+
+.lib-payment-method-container
+  .input-container-card
+  .btn-container-edit
+  .left-btn {
+  width: 10.417vw;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background-color: #e0e0e0;
+}
+.lib-payment-method-container
+  .input-container-card
+  .btn-container-edit
+  .right-btn {
+  width: 10.417vw;
+  border: none;
+  margin-left: 30px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background: #00c2cb;
+  color: #ffffff;
+}

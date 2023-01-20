@@ -1,0 +1,94 @@
+.add-address-container {
+  padding: 2.604vw 3.125vw;
+  background-color: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+  height: fit-content;
+}
+
+.add-address-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+}
+
+.add-address-container .header .body {
+  font-family: Gilroy-Medium;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+}
+
+.add-address-container .input-container label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.add-address-container .input-container .header {
+  width: 100%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.add-address-container .input-container input {
+  padding: 1.042vw 1.563vw;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 1.042vw;
+}
+.add-address-container .input-container select {
+  padding: 1.042vw 1.563vw;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 1.042vw;
+}
+
+.add-address-container .input-container .btn-container-edit {
+  margin-top: 0;
+  float: right;
+}
+
+.add-address-container .input-container .btn-container-edit .left-btn {
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0px;
+  width: 10.417vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background-color: #e0e0e0;
+}
+.add-address-container .input-container .btn-container-edit .right-btn {
+  border: none;
+  margin-left: 1.563vw;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 1.042vw 0px;
+  width: 10.417vw;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  background: #00c2cb;
+  color: #ffffff;
+}

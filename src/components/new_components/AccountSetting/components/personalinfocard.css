@@ -1,0 +1,23 @@
+.info-option-info-card {
+  background: white;
+  padding: 1.042vw;
+  margin-bottom: 0.521vw;
+  border-radius: 10px;
+  display: grid;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+}
+
+.info-option-info-card input {
+  background: white;
+  border: unset;
+  font-family: Gilroy-Regular;
+  font-size: 0.938vw;
+  line-height: 21px;
+  color: #828282;
+}
+
+.info-option-info-card label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  color: #333333;
+}

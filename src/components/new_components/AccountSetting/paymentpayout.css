@@ -1,0 +1,536 @@
+.payment-method-container {
+  padding: 50px 60px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 15px 15px;
+  height: fit-content;
+}
+
+.payment-method-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.payment-method-container .header .body {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.payment-method-container .card-list {
+  margin-top: 10px;
+  display: grid;
+}
+
+.payment-method-container .card-list .card-info {
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.payment-method-container .card-list .card-info .card-img {
+  padding: 12px 10px;
+  background-color: #ffffff;
+}
+
+.payment-method-container .card-list .card-info .left-container {
+  margin-left: 20px;
+}
+
+.payment-method-container .card-list .card-info .left-container span {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.payment-method-container .card-list .card-info .left-container p {
+  margin-bottom: 0px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+}
+
+.payment-method-container .card-list .card-info .right-container {
+  float: right;
+}
+
+.payment-method-container .card-list .card-info .right-container .default-btn {
+  border: 1px solid #f5f5f7;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #f5f5f7;
+  font-family: Gilroy-Bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #007cff;
+}
+
+.payment-method-container .card-list .card-info .right-container .edit {
+  margin-left: 15px;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50px;
+  background-color: #f5f5f7;
+}
+
+.add-method-btn {
+  margin-top: 2.604vw;
+  padding: 1.042vw 2.083vw;
+  border: none;
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: #00c2cb;
+  border-radius: 10px;
+}
+
+.payout-method-btn {
+  float: right;
+  margin-top: 40px;
+  padding: 18px 40px;
+  border: none;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: #00c2cb;
+  border-radius: 10px;
+}
+
+.payment-method-container .input-container .field input {
+  width: 100%;
+  background: #fafafa;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 20px;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  color: #828282;
+}
+
+.payment-method-container .input-container {
+  margin-top: 20px;
+}
+
+.payment-method-container .btn-container-edit {
+  margin-top: 20px;
+  float: right;
+}
+
+.payment-method-container .btn-container-edit .left-btn {
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px 0px;
+  width: 200px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  background-color: #e0e0e0;
+}
+.payment-method-container .btn-container-edit .right-btn {
+  border: none;
+  margin-left: 30px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px 0px;
+  width: 200px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  background: #00c2cb;
+  color: #ffffff;
+}
+
+.input-container .btn-container-edit {
+  margin-top: 20px;
+  float: right;
+}
+
+.input-container .btn-container-edit .left-btn {
+  border: none;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px 0px;
+  width: 200px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  background-color: #e0e0e0;
+}
+.input-container .btn-container-edit .right-btn {
+  border: none;
+  margin-left: 30px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px 0px;
+  width: 200px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  background: #00c2cb;
+  color: #ffffff;
+}
+
+.payout-li {
+  margin-left: 40px;
+  list-style-type: disc;
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #828282;
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+.payment-method-container .input-container label {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.payment-method-container .input-container .header {
+  width: 100%;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.payment-method-container .input-container input {
+  padding: 20px 30px;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 20px;
+}
+.payment-method-container .input-container select {
+  padding: 20px 30px;
+  width: 100%;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gilroy-Medium;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+  margin-bottom: 20px;
+}
+
+.payment-method-container .input-container .check-label {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.payment-method-container .payout-btn-container {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.payment-method-container .payout-btn-container .left-btn {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 20px 0px;
+  width: 200px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+}
+.payment-method-container .payout-btn-container .right-btn {
+  margin-left: 30px;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 20px 0px;
+  width: 200px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+}
+
+.payment-method-container .payout-btn-container .grey {
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+.payment-method-container .payout-btn-container .blue {
+  background: #00c2cb;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.payment-method-container .address-list {
+  margin-top: 30px;
+}
+
+.address-list .address {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px 40px;
+}
+
+.address-list .address span {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.address-list .address p {
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 16px;
+  color: #828282;
+  margin-bottom: 0px;
+}
+
+.address-list .address-active {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 3px solid #333333;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 16px 40px;
+}
+
+.address-list .address-active span {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+
+.address-list .address-active p {
+  font-family: Gilroy-Regular;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+  margin-bottom: 0px;
+}
+
+.modal-payout-container {
+  padding: 150px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 20px;
+}
+
+.modal-payout-container .head {
+  margin-top: 50px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.modal-payout-container .body {
+  margin-top: 30px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.modal-payout-container .btn-done {
+  padding: 20px 115px;
+  margin-top: 30px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    #00c2cb 0%,
+    rgba(0, 194, 203, 0.76) 51.04%,
+    #00c2cb 100%
+  );
+  border-radius: 10px;
+  border: none;
+  text-transform: capitalize;
+}
+
+.paypal-container {
+  padding: 50px 60px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: fit-content;
+}
+.paypal-container .header {
+  margin-bottom: 30px;
+}
+
+.paypal-container .header .head {
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.paypal-container .header .body {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #828282;
+}
+
+.paypal-container .btn-container {
+  margin-top: 30px;
+}
+
+.paypal-container .left-btn {
+  padding: 18px 75px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.paypal-container .right-btn {
+  padding: 18px 45px;
+  background: #00c2cb;
+  border-radius: 10px;
+  font-family: Gilroy-Bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.paypal-container .points-list {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paypal-container .points-list .point {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.paypal-container .points-list .point span {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.modal-paypal-container {
+  padding: 50px 60px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.modal-paypal-container h5 {
+  margin-top: 40px;
+  font-family: Gilroy-Regular;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.modal-paypal-container input {
+  padding: 28px 30px;
+  width: 100%;
+  margin-top: 50px;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #4f4f4f;
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.modal-paypal-container .btn-next {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 25px 0px;
+  background: linear-gradient(0deg, #4285f4, #4285f4);
+  border-radius: 15px;
+  border: none;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.modal-paypal-container .btn-signup {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 25px 0px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  text-align: center;
+  color: #333333;
+  border: none;
+}
+
+.modal-paypal-container span {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  align-items: center;
+  color: #333333;
+}
+
+.modal-paypal-container .span-click {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.modal-paypal-container .span-or {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #bdbdbd;
+}

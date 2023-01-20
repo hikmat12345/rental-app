@@ -1,0 +1,79 @@
+.info-option-verification-card {
+  background: white;
+  padding: 2.604vw 3.125vw;
+  border-radius: 10px;
+  display: grid;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+}
+
+.info-option-verification-card label {
+  font-family: Gilroy-Bold;
+  padding-left: 1.042vw;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.info-option-verification-card span {
+  background: white;
+  padding: 0px 0px 1.042vw 1.042vw;
+  font-size: 0.938vw;
+  line-height: 23px;
+  color: #828282;
+  border: unset;
+}
+
+.info-option-verification-card .info-option {
+  background: white;
+  padding: 1.042vw;
+  margin: 10px 0px 0px 0px;
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25); */
+  border: 1px solid #e0e0e0;
+}
+
+.info-option-verification-card .info-option .label-left {
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  color: #828282;
+  float: left;
+}
+
+.info-option-verification-card .info-option .label-left span {
+  padding: 0px 1.042vw;
+}
+
+.info-option-verification-card .info-option .label-right {
+  font-family: Gilroy-Medium;
+  font-size: 0.833vw;
+  color: #333333;
+  float: right;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.info-option-verification-card .two-step {
+  margin-top: 2.604vw;
+}
+
+.info-option-verification-card .two-step span {
+  font-family: Gilroy-Bold;
+  padding-left: 0;
+  margin-bottom: 2.604vw;
+  font-size: 1.042vw;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.info-option-verification-card .two-step p {
+  background: white;
+  font-size: 0.938vw;
+  line-height: 23px;
+  color: #828282;
+  border: unset;
+  padding-right: 3.125vw;
+  margin-top: 10px;
+}

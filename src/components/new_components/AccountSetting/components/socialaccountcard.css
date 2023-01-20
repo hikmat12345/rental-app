@@ -1,0 +1,28 @@
+.socail-card {
+  background: white;
+  padding: 1.042vw 1.042vw 0.521vw;
+  margin-top: 1.042vw;
+  border-radius: 0.521vw;
+  display: grid;
+  box-shadow: 0px 0px 20px rgba(179, 179, 179, 0.25);
+}
+
+.socail-card .login label {
+  font-family: Gilroy-Bold;
+  font-size: 1.042vw;
+  color: #333333;
+}
+
+.socail-card .login p {
+  background: white;
+  font-size: 0.938vw;
+  color: #828282;
+  border: unset;
+}
+
+.socail-card .edit-info {
+  float: right;
+  margin-right: 0.521vw;
+  margin-top: 1.042vw;
+  color: #4285f4;
+}
